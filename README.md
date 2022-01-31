@@ -1,0 +1,2 @@
+# WeekZero
+Practising Git
