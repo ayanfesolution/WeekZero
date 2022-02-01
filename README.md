@@ -6,4 +6,4 @@ Development of Swift started in July 2010 by Chris Lattner, with the eventual co
 Swift is a strongly typed language.
 In swift, when declaration of variable or constant is made, it automatically picks up the data type
 We have 6 types of data
-String, Int, Double, Float, Array, Bool
+String, Int, Double, Float, Character, Bool
