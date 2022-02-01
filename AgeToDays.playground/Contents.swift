@@ -11,6 +11,7 @@ func ageToDays(_age: Int) ->Int {
     return days
 }
 
+//testing the function to see if it will run
 ageToDays(_age: 5)
 
 ageToDays(_age: 2)
