@@ -6,7 +6,6 @@ import UIKit
 func ageToDays(_age: Int) ->Int {
     
     let age = _age
-    
     let days = age * 365
     return days
 }
