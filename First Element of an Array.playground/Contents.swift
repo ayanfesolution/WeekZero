@@ -19,15 +19,16 @@ import UIKit
  
  */
 
-func getFirstValue (numArrey:[Array<Int>]) -> [0] {
+func getFirstValue (_ numArrey:[Int]) -> Int {
     
     return numArrey[0]
-    
 }
 
-getFirstValue(numArrey: [1, 2, 3])
+getFirstValue([1, 2, 3])
 
 
-getFirstValue(numArrey: [80, 5, 100])
+getFirstValue([80, 5, 100])
 
-getFirstValue(numArrey: [-500, 0, 50])
+getFirstValue([-500, 0, 50])
+
+

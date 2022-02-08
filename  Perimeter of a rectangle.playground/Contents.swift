@@ -16,18 +16,18 @@ import UIKit
  */
 
 
-func findPerimeter(lenght: Int, width: Int) -> Int {
+func findPerimeter(_ lenght: Int,_ width: Int) -> Int {
    
     let perimeter = 2 * ( lenght + width )
     
     return perimeter
 }
 
-findPerimeter(lenght: 6, width: 7)
+findPerimeter(6,7)
 
-findPerimeter(lenght: 20, width: 10)
+findPerimeter(20,10)
 
-findPerimeter(lenght: 2, width: 9)
+findPerimeter(2,9)
 
 
 

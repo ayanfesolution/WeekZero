@@ -20,7 +20,7 @@ import UIKit
  
  */
 
-func lessThanOrEqualToZero(num: Int) -> Bool {
+func lessThanOrEqualToZero(_ num: Int) -> Bool {
      
     if num <= 0  {
         return true
@@ -29,6 +29,6 @@ func lessThanOrEqualToZero(num: Int) -> Bool {
     return (num <= 0)
 }
 
-lessThanOrEqualToZero(num: 5)
-lessThanOrEqualToZero(num: 0)
-lessThanOrEqualToZero(num: -2)
+lessThanOrEqualToZero(5)
+lessThanOrEqualToZero(0)
+lessThanOrEqualToZero(-2)

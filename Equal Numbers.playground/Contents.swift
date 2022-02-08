@@ -16,7 +16,7 @@ import UIKit
  
  */
 
-func isSameNum (num1:Int, num2: Int) -> Bool{
+func isSameNum (_ num1:Int, _ num2: Int) -> Bool{
     
     if num1 == num2 {
         return true
@@ -25,8 +25,8 @@ func isSameNum (num1:Int, num2: Int) -> Bool{
     return num1 == num2
 }
 
-isSameNum(num1: 4, num2: 8)
+isSameNum(4, 8)
 
-isSameNum(num1: 2, num2: 2)
+isSameNum(2, 2)
 
-isSameNum(num1: 2, num2: 3)
+isSameNum(2, 3)

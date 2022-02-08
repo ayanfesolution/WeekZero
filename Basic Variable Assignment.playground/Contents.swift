@@ -19,15 +19,15 @@ import UIKit
  
  */
 
-func nameString (name: String) -> String {
+func nameString (_ name: String) -> String {
     let nickname = name + "Edabit"
     
     return nickname
 }
 
-nameString(name: "GP")
+nameString("GP")
 
-nameString(name: "Ewele")
+nameString("Ewele")
 
-nameString(name: "Ayanfe")
+nameString("Ayanfe")
 
